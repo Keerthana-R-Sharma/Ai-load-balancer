@@ -1,0 +1,14 @@
+{
+  "name": "load-balancer-demo",
+  "version": "1.0.0",
+  "description": "A simple visual load balancer demo with a UI and 3 backend servers",
+  "main": "lb.js",
+  "scripts": {
+    "start": "node lb.js",
+    "worker": "node worker.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
